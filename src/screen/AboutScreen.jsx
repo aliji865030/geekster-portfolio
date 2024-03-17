@@ -61,13 +61,7 @@ const AboutScreen = () => {
   }
 
   return (
-    <div
-      style={{
-        backgroundImage: "linear-gradient(to top, #5ee7df 0%, #b490ca 100%)",
-        
-      }}
-      className=" px-48 py-10"
-    >
+    <div className=" px-48 py-10">
       <div className="w-4/12">
         <AboutMe></AboutMe>
       </div>
