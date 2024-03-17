@@ -8,7 +8,7 @@ const ProjectCard = ({img,heading,para,link,github}) => {
                 <img src={img} className=' hover:shadow-md cursor-pointer hover:shadow-white hover:transition-all duration-300 ease-linear rounded-xl' alt="" />
             </a>
         </div>
-        <div className=' '>
+        <div className='text-center '>
             <h1 className='text-2xl font-semibold'>{heading}</h1>
             <p className=' text-gray-300'>{para}</p>
         </div>

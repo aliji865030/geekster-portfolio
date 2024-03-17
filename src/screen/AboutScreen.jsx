@@ -61,7 +61,7 @@ const AboutScreen = () => {
   }
 
   return (
-    <div className=" px-48 py-10">
+    <div className=" px-48 py-10" style={{backgroundImage:"linear-gradient(to top, #d9afd9 0%, #97d9e1 100%)"}}>
       <div className="w-4/12">
         <AboutMe></AboutMe>
       </div>
@@ -84,7 +84,7 @@ const AboutScreen = () => {
         </div>
         
         <div>
-        <h1 className="text-3xl font-semibold text-white py-5">Primary Focus</h1>
+        <h1 className="text-3xl font-semibold text-white py-5 text-center">Primary Focus</h1>
         </div>
 
         <div className="flex flex-wrap p-5 px-12 gap-5">
@@ -95,7 +95,7 @@ const AboutScreen = () => {
         </div>
 
         <div>
-          <h1 className="text-3xl font-semibold text-white py-5">Exploring Creativity</h1>
+          <h1 className="text-3xl font-semibold text-white py-5 text-center">Exploring Creativity</h1>
         </div>
 
         <div className="flex flex-wrap p-5 px-12 gap-5">
@@ -105,7 +105,7 @@ const AboutScreen = () => {
         </div>
 
         <div>
-          <h1 className="text-3xl font-semibold text-white py-5">Languages</h1>
+          <h1 className="text-3xl font-semibold text-white py-5 text-center">Languages</h1>
         </div>
 
         <div className="flex bg-black bg-opacity-15 backdrop-filter backdrop-blur-xl rounded-xl mx-12 my-5 pl-10 py-10" style={{color:"#fafafa"}}>
@@ -113,13 +113,13 @@ const AboutScreen = () => {
         </div>
 
         <div>
-          <h1 className="text-3xl font-semibold text-white py-5">Development Skills</h1>
+          <h1 className="text-3xl font-semibold text-white py-5 text-center">Development Skills</h1>
         </div>
 
         <Skills></Skills>
 
         <div>
-          <h1 className="text-3xl font-semibold text-white py-5">Favorite Activities</h1>
+          <h1 className="text-3xl font-semibold text-white py-5 text-center">Favorite Activities</h1>
         </div>
 
 

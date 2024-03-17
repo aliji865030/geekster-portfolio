@@ -45,17 +45,17 @@ const AboutMe = () => {
 
       <div className="flex gap-3">
         <span className=" text-gray-300 hover:text-gray-200 cursor-pointer">
-          <a href="#">
+          <a href="https://github.com/aliji865030">
             <i className="fa-brands fa-github"></i>
           </a>
         </span>
         <span className=" text-gray-300 hover:text-gray-200 cursor-pointer">
-          <a href="#">
+          <a href="www.linkedin.com/in/abbas-ali-294821212">
             <i className="fa-brands fa-linkedin"></i>
           </a>
         </span>
         <span className=" text-gray-300 hover:text-gray-200 cursor-pointer">
-          <a href="#">
+          <a href="https://www.instagram.com/i.abbas_ali/">
             <i className="fa-brands fa-instagram"></i>
           </a>
         </span>

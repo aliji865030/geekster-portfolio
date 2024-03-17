@@ -2,7 +2,7 @@ import React from 'react'
 
 const Skills = () => {
   return (
-    <div className='text-8xl flex flex-wrap justify-center gap-14 mx-12 p-5 bg-black bg-opacity-15 backdrop-filter backdrop-blur-xl rounded-xl'>
+    <div className='text-8xl flex flex-wrap justify-center gap-14 mx-12 p-5 py-10 my-5 bg-black bg-opacity-15 backdrop-filter backdrop-blur-xl rounded-xl'>
       <div className='flex flex-col'>
         <span className='text-3xl font-bold'>HTML</span>
       <i className="fa-brands fa-html5 text-red-500"></i>
