@@ -80,7 +80,7 @@ const AboutScreen = () => {
           <p className="text-start" style={{color:"fafafa"}} >
             {para}
           </p>
-          <button onClick={(e)=>{showPara(e)}} className="my-4">{show}</button>
+          <div className="text-center"><button onClick={(e)=>{showPara(e)}} className="my-4">{show}</button></div>
         </div>
         
         <div>
