@@ -1,6 +1,8 @@
 import React, { useRef, useState } from "react";
 import AboutMe from "../component/AboutMe";
 import NavBar from "../component/NavBar";
+import Card from "../component/Card";
+import LanguageCard from "../component/LanguageCard";
 
 const AboutScreen = () => {
   const tempPara=` Hello there! 👋 My name is Abbas Ali and I'm from Khatima, Uttrakhand. As a
@@ -59,7 +61,7 @@ const AboutScreen = () => {
   return (
     <div
       style={{
-        backgroundImage: "linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%)",
+        backgroundImage: "linear-gradient(to top, #5ee7df 0%, #b490ca 100%)",
         height: "5000px",
       }}
       className=" px-48 py-10"
@@ -79,12 +81,46 @@ const AboutScreen = () => {
         </div>
 
         <div  className=" bg-black bg-opacity-15 backdrop-filter backdrop-blur-xl rounded-xl px-5 py-3 mx-12 mt-10 text-white">
-          <p >
+          <p className="text-start" style={{color:"fafafa"}} >
             {para}
           </p>
           <button onClick={(e)=>{showPara(e)}} className="my-4">{show}</button>
         </div>
+        
+        <div>
+        <h1 className="text-3xl font-semibold text-white py-5">Primary Focus</h1>
+        </div>
+
+        <div className="flex flex-wrap p-5 px-12 gap-5">
+           <Card img={"https://oktayshakirov.com/assets/images/icon-dev.svg"} heading={"Web Design & Development" } para={"Creating attractive, easy-to-use websites that work well for businesses and individuals online."}></Card>
+           <Card img={"https://oktayshakirov.com/assets/images/icon-app.svg"} heading={"Mobile Apps & Games"} para={"Creating and developing engaging mobile apps and games for iOS and Android devices."}></Card>
+           <Card img={"https://oktayshakirov.com/assets/images/icon-frameworks.svg"} heading={"Development Solutions"} para={"Utilizing JavaScript frameworks like React, Node, Next, Vue and more to build interactive web applications."}></Card>
+           <Card img={"https://oktayshakirov.com/assets/images/icon-marketing.svg"} heading={"Marketing & SEO"} para={"Using SEO and marketing strategies to boost online visibility and promote products or services."}></Card>
+        </div>
+
+        <div>
+          <h1 className="text-3xl font-semibold text-white py-5">Exploring Creativity</h1>
+        </div>
+
+        <div className="flex flex-wrap p-5 px-12 gap-5">
+          <Card img={"https://oktayshakirov.com/assets/images/icon-video.svg"} heading={"Visual Storytelling"} para={"Taking and editing photos or videos that tell engaging stories, bringing concepts and ideas to life visually."}></Card>
+          <Card img={"https://oktayshakirov.com/assets/images/icon-multimedia.svg"} heading={"Digital Content Creation"} para={"Creatiing dynamic digital content, such as 3D models, graphics or animations."}></Card>
+
+        </div>
+
+        <div>
+          <h1 className="text-3xl font-semibold text-white py-5">Languages</h1>
+        </div>
+
+        <div className="flex bg-black bg-opacity-15 backdrop-filter backdrop-blur-xl rounded-xl mx-12 my-5 pl-10 py-10" style={{color:"#fafafa"}}>
+          <LanguageCard></LanguageCard>
+        </div>
+
+
+
       </div>
+
+      
     </div>
   );
 };
