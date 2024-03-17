@@ -3,6 +3,8 @@ import AboutMe from "../component/AboutMe";
 import NavBar from "../component/NavBar";
 import Card from "../component/Card";
 import LanguageCard from "../component/LanguageCard";
+import Skills from "../component/Skills";
+import ActivityCard from "../component/ActivityCard";
 
 const AboutScreen = () => {
   const tempPara=` Hello there! 👋 My name is Abbas Ali and I'm from Khatima, Uttrakhand. As a
@@ -62,7 +64,7 @@ const AboutScreen = () => {
     <div
       style={{
         backgroundImage: "linear-gradient(to top, #5ee7df 0%, #b490ca 100%)",
-        height: "5000px",
+        
       }}
       className=" px-48 py-10"
     >
@@ -114,6 +116,27 @@ const AboutScreen = () => {
 
         <div className="flex bg-black bg-opacity-15 backdrop-filter backdrop-blur-xl rounded-xl mx-12 my-5 pl-10 py-10" style={{color:"#fafafa"}}>
           <LanguageCard></LanguageCard>
+        </div>
+
+        <div>
+          <h1 className="text-3xl font-semibold text-white py-5">Development Skills</h1>
+        </div>
+
+        <Skills></Skills>
+
+        <div>
+          <h1 className="text-3xl font-semibold text-white py-5">Favorite Activities</h1>
+        </div>
+
+
+        <div className="flex flex-wrap gap-12 text-white justify-center mt-8 mb-10">
+          <ActivityCard img={"https://oktayshakirov.com/assets/images/finances.png"} heading={"Investments"} para={"Exploring Stocks, Crypto and Long-Term Growth Opportunities for Financial Investment"}></ActivityCard>
+
+          <ActivityCard img={"https://oktayshakirov.com/assets/images/music.png"} heading={"Music"} para={"Creating Instrumentals, Mixing and Mastering Tracks and Collaborating with Musicians"}></ActivityCard>
+
+          <ActivityCard img={"https://oktayshakirov.com/assets/images/books.png"} heading={"Reading"} para={"Books on Self-Improvement, Psychology and Understanding Life Better."}></ActivityCard>
+
+          <ActivityCard img={"https://oktayshakirov.com/assets/images/camera.png"} heading={"Photography"} para={"Capturing precious moments and memories through the lens of a camera."}></ActivityCard>
         </div>
 
 
