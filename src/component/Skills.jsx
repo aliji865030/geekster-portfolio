@@ -40,6 +40,18 @@ const Skills = () => {
       <i className="fa-brands fa-figma"></i>
       </div>
 
+      <div>
+      <i className="fa-brands fa-git-alt text-orange-600"></i>
+      </div>
+
+      <div>
+      <i className="fa-brands fa-bootstrap text-blue-600"></i>
+      </div>
+
+      <div>
+      <i class="fa-brands fa-sass"></i>
+      </div>
+
 
     </div>
   )
